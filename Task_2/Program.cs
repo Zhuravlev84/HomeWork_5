@@ -10,7 +10,7 @@ int count = 0;
 Console.Write("[ ");
 for ( int i = 0; i < numbers.Length; i++)
 {
-    numbers[i] = new Random().Next(-10, 10);
+    numbers[i] = new Random().Next(0, 10);
     Console.Write(numbers[i] + " ");
     if ( i % 2 != 0)
        {
