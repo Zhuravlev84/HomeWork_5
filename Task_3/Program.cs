@@ -10,7 +10,7 @@ Console.Write("[ ");
 for ( int i = 0; i < numbers.Length; i++)
 {
     numbers[i] = new Random().Next(0, 99);
-    //numbers[i] = (numbers[i])/10;
+    numbers[i] = (numbers[i])/10;
     Console.Write(numbers[i] + " ");
 }
 
